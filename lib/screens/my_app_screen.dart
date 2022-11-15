@@ -7,10 +7,10 @@ class MyAppScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Freestyle Application"),
+        title: Text("Freestylek Application"),
       ),
       body: Center(
-        child: Image(image: AssetImage("images/comp.jpg"),),
+        child: Image.network('https://picsum.photos/500/500?grayscale'),
       ),
     );
   }
